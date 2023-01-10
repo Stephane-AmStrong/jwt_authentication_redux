@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom"
 
 import { useDispatch } from "react-redux"
 import { setCredentials } from "./authenticationSlice"
-import { useLoginMutation } from "./authApiSlice"
+import { useLoginMutation } from "./authenticationApiSlice"
 
 
 export default function Login() {
